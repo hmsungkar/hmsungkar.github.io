@@ -31,7 +31,7 @@ $(function() {
 			$('.sectNavbar').removeClass('showNoAnim');
 			// $('.sectNavbar').hide();
 		}
-	}, 50));
+	}, 500));
 
 	// $('.mainBlogTitle').on('click', function() {
 	// 	$('html, body').animate({
