@@ -234,23 +234,45 @@ a:hover { text-decoration: none; }
 
 .sectHead {
 	display: flex; 
-	padding-top: 4.5rem;
+	/*padding-top: 4.5rem;*/
 	height: 100vh;
 	max-height: 50rem;
 	/*! flex-flow: column; */
 	/*! justify-content: center; */
+	/*background-color: var(--daBlack);*/
 }
 
-.headpar {
+.introTextPar {
+	flex-grow: 1;
+	padding: 1rem;
+	display: flex;
+	flex-flow: column;
+	max-height: inherit;
+	width: 100%;
+	max-width: 130rem;
+	margin: 0 auto;
+	position: relative;
+}
+.introTextPar::after {
+	content: '';
+	position: absolute;
+	top: 0;	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: .6rem;
+	border: .15rem solid #ddd;
+}
+
+/*.headpar {
 	flex-grow: 1;
 	padding: 2.4rem 0;
 	display: grid;
 	grid-template-columns: 16rem auto;
-	/*height: 100%;*/
+	/*height: 100%;
 	max-height: inherit;
 	max-width: 130rem;
 	margin: 0 auto;
-}
+}*/
 
 .head1 {
 	display: flex;
