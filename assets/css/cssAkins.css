@@ -253,15 +253,6 @@ a:hover { text-decoration: none; }
 	margin: 0 auto;
 	position: relative;
 }
-.introTextPar::after {
-	content: '';
-	position: absolute;
-	top: 0;	left: 0;
-	width: 100%;
-	height: 100%;
-	margin: .6rem;
-	border: .15rem solid #ddd;
-}
 
 /*.headpar {
 	flex-grow: 1;
